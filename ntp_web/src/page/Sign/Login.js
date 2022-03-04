@@ -3,12 +3,11 @@ import "../../css/Login.css";
 function Login() {
   return (
     <>
-      <div className="sign-body" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/logo/bg.jpg"})` }}>
+      <div className="sign-body">
         <div className="sign-wrap">
           <div className="login">
             <div className="titlebox">
-              <img src="../logo/logo_c.png" className="sign-logo" />
-              <span className="GeoAI-Platform"> GeoAI Platform </span>
+              <span className="GeoAI-Platform"> NTP </span>
             </div>
             <div>
               <br />
@@ -46,9 +45,7 @@ function Login() {
           </div>
         </div>
         <div className="sign-box">
-          <div className="sign-box1">
-            <img src="../logo/logo_w.png" />
-          </div>
+          <div className="sign-box1"></div>
           <div className="sign-box2"></div>
         </div>
       </div>
