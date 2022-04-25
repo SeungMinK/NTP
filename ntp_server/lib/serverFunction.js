@@ -171,6 +171,4 @@ module.exports = {
     decrypt,
     getSessionData,
     deleteSessionTable,
-    BRIGHTICS_GET_ACCESSTOKEN,
-    BRIGHTICS_CREATE_USER,
 };
